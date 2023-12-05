@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Grid Container -->
+    <div class="grid-container">
+      <nav>
+        <!-- Logo -->
+        <img src="images/logo.svg" alt="" />
+
+        <!-- Navigation Links -->
+        <ul class="main-navigation-links">
+          <li>
+            <a href="">Collection</a>
+          </li>
+          <li>
+            <a href="">Men</a>
+          </li>
+          <li>
+            <a href="">Women</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Shopping cart -->
+        <img class="ct" src="images/icon-cart.svg" alt="" />
+
+        <!-- User Avatar -->
+        <img class="avt" src="images/image-avatar.png" alt="" />
+      </nav>
+
+      <!-- Left Side Container -->
+      <div class="lsc">
+        <!-- Main Big Image -->
+        <img class="main-image" src="images/image-product-1.jpg" alt="" />
+
+        <img src="images/image-product-1-thumbnail.jpg" alt="" />
+
+        <img src="images/image-product-2-thumbnail.jpg" alt="" />
+
+        <img src="images/image-product-3-thumbnail.jpg" alt="" />
+
+        <img src="images/image-product-4-thumbnail.jpg" alt="" />
+      </div>
+
+      <!-- Right Side Container -->
+      <div class="rsc">
+        <h2>Sneaker Company</h2>
+        <h3>Fall Limited Edition <br>Sneakers</h3>
+        <p>
+          These low profile sneakers are your casual wears companion. Featuring
+          a durable rubber outer sole they'll withstand anything the weather can
+          offer.
+        </p>
+
+        <div class="flex-row">
+          <span class="price">$125.00</span>
+          <span class="discount">50%</span>
+        </div>
+
+        <span class="old-price">$250.00</span>
+
+        <!-- Button Flex Row -->
+        <div class="flex-row2">
+          <div class="qty-container">
+            <img src="images/icon-minus.svg" alt="" />
+            0
+            <img src="images/icon-plus.svg" alt="" />
+          </div>
+          <button class="cart">
+            <img src="images/icon-cart.svg" style="color: white" />
+            Add to cart
+          </button>
+        </div>
+        <!-- End of flex row -->
+      </div>
+    </div>
+    <!-- Main Grid Container Ends -->
+  </body>
+</html>
